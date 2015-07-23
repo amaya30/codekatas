@@ -1,7 +1,0 @@
-C:\git\codekatas\katas\fizzbuzz\FizzBuzzTest\bin\Debug\FizzBuzzTest.dll
-C:\git\codekatas\katas\fizzbuzz\FizzBuzzTest\bin\Debug\FizzBuzzTest.pdb
-C:\git\codekatas\katas\fizzbuzz\FizzBuzzTest\obj\Debug\FizzBuzzTest.csprojResolveAssemblyReference.cache
-C:\git\codekatas\katas\fizzbuzz\FizzBuzzTest\obj\Debug\FizzBuzzTest.dll
-C:\git\codekatas\katas\fizzbuzz\FizzBuzzTest\obj\Debug\FizzBuzzTest.pdb
-C:\git\codekatas\katas\fizzbuzz\FizzBuzzTest\bin\Debug\FizzBuzz.exe
-C:\git\codekatas\katas\fizzbuzz\FizzBuzzTest\bin\Debug\FizzBuzz.pdb
