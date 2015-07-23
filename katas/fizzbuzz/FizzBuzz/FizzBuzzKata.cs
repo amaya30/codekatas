@@ -6,11 +6,13 @@ namespace FizzBuzz
     {
         public static void Main(string[] args)
         {
-            FizzBuzzKata fizzBuzz = new FizzBuzzKata();
+            var fizzBuzzKata = new FizzBuzzKata();
         }
 
         public FizzBuzzKata()
         {
+            var fizzBuzz = new FizzBuzz();
+
             Console.WriteLine("Starting Number: ");
             var startNum = GetNumericInput();
             Console.WriteLine("Ending Number: ");
@@ -19,7 +21,7 @@ namespace FizzBuzz
             Console.WriteLine("\r\nFizzBuzz Sequence: ");
             for (var i = startNum; i <= endNum; i++)
             {
-                Console.WriteLine(Answer(i));
+                Console.WriteLine(fizzBuzz.Answer(i));
             }
         }
 
@@ -33,15 +35,6 @@ namespace FizzBuzz
             }
 
             return Int32.Parse(input);
-        }
-
-        private string Answer(int num)
-        {
-            if (num%3 == 0 && num%5 == 0) return "fizzbuzz";
-            if (num%3 == 0) return "fizz";
-            if (num%5 == 0) return "buzz";
-
-            return num.ToString();
         }
     }
 }
