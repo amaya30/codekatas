@@ -1,0 +1,1 @@
+C:\git\codekatas\katas\teaparty\TeaPartyKata\bin\Debug\TeaPartyKata.exe.config
